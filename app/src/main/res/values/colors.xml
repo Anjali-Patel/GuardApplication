@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0074BA</color>
+    <color name="colorPrimaryDark">#0074BA</color>
+    <color name="colorAccent">#0074BA</color>
+    <color name="tool_bar_color">#ffffff</color>
+    <color name="grey">#f2f2f2</color>
+    <color name="body">#e8e8e9</color>
+    <color name="text">#009dff</color>
+    <color name="fab">#92fa2b</color>
+    <color name="profile">#6ab2f4</color>
+    <color name="my_flats">#6db3ff</color>
+    <color name="tab">#dfdfdf</color><!--#9f9f9f-->
+    <color name="ff"> #0074BA</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#0074BA</color>
+    <color name="tabtext">#505050</color>
+    <color name="black">#000000</color>
+
+    <color name="orange">#ea8b38</color>
+    <color name="green">#38ea6d</color>
+    <color name="yellow">#eac638</color>
+    <color name="red">#ea5b38</color>
+    <color name="transparent_white">#00FFFFFF</color>
+</resources>

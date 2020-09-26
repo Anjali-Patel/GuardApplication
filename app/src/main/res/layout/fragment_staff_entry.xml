@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.StaffEntryFragment">
+
+    <RelativeLayout
+        android:background="#d3d3d3"
+        android:id="@+id/real"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <android.support.v4.widget.NestedScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/nested">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp">
+                    <EditText
+                        android:padding="10dp"
+                        android:hint="Enter Name"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/edit_background"                        android:layout_width="match_parent"
+                        android:layout_height="45dp"  />
+                    <EditText
+                        android:inputType="phone"
+                        android:maxLength="10"
+                        android:hint="Enter Mobile Number"
+                        android:padding="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/edit_background"                        android:layout_width="match_parent"
+                        android:layout_height="45dp" />
+                    <EditText
+                        android:inputType="number"
+                        android:hint="Enter Flat Number"
+                        android:padding="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/edit_background"                        android:layout_width="match_parent"
+                        android:layout_height="45dp" />
+                    <EditText
+                        android:inputType="time"
+                        android:hint="Enter In Time"
+                        android:padding="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/edit_background"                        android:layout_width="match_parent"
+                        android:layout_height="45dp" />
+                    <EditText
+                        android:hint="Enter Out Time"
+                        android:padding="10dp"
+                        android:inputType="time"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/edit_background"                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+
+                        />
+                    <EditText
+                        android:hint="Enter Purpose"
+                        android:padding="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/edit_background"                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        />
+                    <RelativeLayout
+                        android:id="@+id/select_society"
+                        android:layout_width="match_parent"
+
+                        android:layout_marginTop="15dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/edit_background"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_below="@+id/word">
+
+                        <Spinner
+
+                            android:entries="@array/Guard_Type"
+                            android:id="@+id/society_spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:textAlignment="textStart"
+                            android:background="@drawable/edit_background"
+                            tools:ignore="RtlHardcoded" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/dropdown" />
+
+
+                    </RelativeLayout>
+                    <LinearLayout
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="80dp"
+                        android:background="@drawable/edit_background"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+                        <TextView
+
+                            android:layout_gravity="center_vertical"                        android:layout_marginLeft="10dp"
+                            android:textAllCaps="false"
+                            android:text="Upload Profile Picture"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <ImageView
+                            android:id="@+id/img_camera"
+                            android:layout_gravity="center"
+                            android:src="@drawable/user_profile"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+        <Button
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/button_view"
+            android:textAllCaps="false"
+            android:text="Save"
+            android:layout_alignParentBottom="true"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</LinearLayout>

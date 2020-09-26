@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@drawable/image_background"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical"
+    android:gravity="bottom">
+
+    <!--<ImageView-->
+    <!--android:layout_width="80dp"-->
+    <!--android:layout_height="80dp"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_marginBottom="25dp"-->
+    <!--android:id="@+id/user_profile" />-->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_profile"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="25dp"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="35dp"
+        android:id="@+id/pencil"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="false"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/user_profile"
+        android:text="Preeti Sharma"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/ff"
+        android:textSize="20dp"
+        android:id="@+id/UserName"
+        />
+    <TextView
+        android:id="@+id/UserEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Evershine Pine 1,2,3,4 CHS LTD"
+        android:layout_below="@+id/UserName"
+        android:layout_marginLeft="95dp"
+        android:textColor="@color/ff"
+        android:layout_marginTop="10dp"
+        android:textSize="11dp"/>
+
+
+</RelativeLayout>

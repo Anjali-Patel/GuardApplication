@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#d3d3d3"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.ExpectedVisitorFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<!--        <LinearLayout-->
+
+
+<!--            android:weightSum="2"-->
+<!--            android:orientation="horizontal"-->
+<!--            xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+
+<!--            <TextView-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="In"-->
+<!--                android:padding="10dp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="18dp"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:singleLine="false"-->
+<!--                android:id="@+id/in"-->
+<!--                android:textAlignment="center"-->
+<!--                android:gravity="center_horizontal" />-->
+
+
+
+<!--            <TextView-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="Out"-->
+<!--                android:padding="10dp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="18dp"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:singleLine="false"-->
+<!--                android:id="@+id/out"-->
+<!--                android:textAlignment="center"-->
+<!--                android:gravity="center_horizontal" />-->
+
+
+
+
+
+
+
+<!--        </LinearLayout>-->
+        <!--<EditText-->
+
+        <!--android:id="@+id/input_search"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/toolbar"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:background="@drawable/curve_search_bar"-->
+        <!--android:drawableLeft="@drawable/ic_search_24dp"-->
+        <!--android:focusedByDefault="false"-->
+        <!--android:gravity="left"-->
+        <!--android:hint="Search In Visitor...."-->
+        <!--android:drawablePadding="10dp"-->
+        <!--android:textSize="14sp"-->
+        <!--android:paddingLeft="15dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:inputType="textCapWords"-->
+        <!--android:paddingTop="8dp"/>-->
+        <FrameLayout
+            android:id="@+id/expected_visitor_frag"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="15dp"
+        android:backgroundTint="@color/colorPrimary"
+        app:backgroundTint="@color/colorPrimary"
+        app:srcCompat="@drawable/ic_add_black" />
+
+</FrameLayout>

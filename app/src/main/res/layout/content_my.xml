@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+
+                android:weightSum="2"
+                android:orientation="horizontal"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="In"
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/yellow"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textAllCaps="false"
+                    android:singleLine="false"
+                    android:id="@+id/in"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal" />
+
+
+
+                <TextView
+                    android:layout_weight="1"
+                    android:text="Out"
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/tabtext"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:textAllCaps="false"
+                    android:singleLine="false"
+                    android:id="@+id/out"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal" />
+
+
+
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <FrameLayout
+          android:background="#d3d3d3"
+            android:id="@+id/frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

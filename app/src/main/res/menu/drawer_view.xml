@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <group android:id="@+id/flats" android:checkableBehavior="single">
+        <item
+            android:id="@+id/visitor"
+            android:icon="@drawable/my_visitor"
+            android:title="@string/visitor" />
+    </group>
+
+    <group android:id="@+id/bill" android:checkableBehavior="single">
+        <item
+            android:id="@+id/staff"
+            android:icon="@drawable/my_staff"
+            android:title="@string/staff" />
+    </group>
+
+    <group android:id="@+id/ledger" android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/resident"
+            android:icon="@drawable/my_residence"
+            android:title="@string/resident" />
+    </group>
+
+    <group android:id="@+id/all_flats" android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/contact_us"
+            android:icon="@drawable/my_residence"
+            android:title="@string/contactus" />
+    </group>
+
+    <group android:id="@+id/notice" android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/about_us"
+            android:icon="@drawable/my_residence"
+            android:title="@string/title_activity_about_society" />
+    </group>
+
+    <group android:id="@+id/meetings" android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/my_residence"
+            android:title="@string/logout" />
+    </group>
+
+
+
+</menu>

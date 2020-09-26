@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+        <item
+            android:id="@+id/visitor"
+            android:icon="@drawable/blue_vector_visitor"
+            android:title="@string/visitor" />
+
+
+        <item
+            android:id="@+id/staff"
+            android:icon="@drawable/ic_sixty"
+            android:title="@string/staff" />
+
+
+
+
+
+
+        <item
+            android:id="@+id/resident"
+            android:icon="@drawable/ic_one_twenty"
+            android:title="@string/resident" />
+
+
+<!--        <item-->
+<!--            android:id="@+id/change_password"-->
+<!--            android:icon="@drawable/changeword"-->
+<!--            android:title="@string/changeword" />-->
+
+        <item
+            android:id="@+id/contact_us"
+            android:icon="@drawable/conatcts"
+            android:title="@string/contactus" />
+
+        <item
+            android:id="@+id/about_us"
+            android:icon="@drawable/ic_abou_drawer"
+            android:title="@string/about" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="@string/logout" />
+
+
+
+
+</menu>
